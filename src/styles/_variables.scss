@@ -1,0 +1,16 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+// Set your brand colors
+$yellow: #f5810c;
+$blue: #3889c8;
+$dark-grey: #141414;
+$grey: #4a4a4a;
+$grey-light: #eeeeee;
+$grey-lighter: #f3f7f7;
+
+// Update Bulma's global variables
+$family-sans-serif: "Exo", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$primary: $yellow;
+$link: $blue;
+$background: $grey-lighter;
+$navbar-breakpoint: $tablet;

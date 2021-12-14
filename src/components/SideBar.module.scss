@@ -1,0 +1,41 @@
+.menuList {
+  background: $grey-light;
+  box-shadow: 0 0 15px $grey;
+
+  .menuItem {
+    width: 260px;
+    display: flex;
+    align-items: center;
+
+    .menuText {
+      width: 100%;
+      padding: 15px 15px;
+      cursor: pointer;
+
+      &:hover {
+        color: $link;
+      }
+    }
+
+    &.isActive {
+      background: $link;
+      color: white;
+
+      .menuText {
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    &.menuSection {
+      text-align: center;
+      background: $primary;
+      cursor: pointer;
+
+      .menuText {
+        padding: 50px 10px;
+      }
+    }
+  }
+}
